@@ -1,0 +1,1 @@
+CREATE TABLE Posts ( Id STRING(36) NOT NULL, Nombre STRING(255) NOT NULL, Descripcion STRING(MAX), Adjunto STRING(MAX), DatosExtraidosIA STRING(MAX), EstadoProcesamiento STRING(50) ) PRIMARY KEY (Id);

@@ -1,0 +1,36 @@
+# Binarios compilados de Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/build/
+/dist/
+/backend
+/server
+
+# Binarios de pruebas y cobertura
+*.test
+*.out
+coverage.html
+
+# Directorio vendor y workspace local
+/vendor/
+go.work
+go.work.sum
+
+# Variables de entorno y credenciales locales
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+
+# Archivos de sistema e IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
